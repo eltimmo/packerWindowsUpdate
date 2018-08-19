@@ -11,8 +11,8 @@ The script ```windows\windowsUpdate.ps1``` must be copied into the Windows OS pr
 
     {
       "type": "file",
-      "source": "windows\windowsUpdate.ps1",
-      "destination": "c:\temp\build\scripts\windowsUpdate.ps1"
+      "source": "windows\\windowsUpdate.ps1",
+      "destination": "c:\\temp\\build\\scripts\\windowsUpdate.ps1"
     }
 
 The update script should be used as follows, the restart timeout may need increasing. The packer script is located ```packer\windowsUpdate.ps1```.
